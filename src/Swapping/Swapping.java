@@ -7,24 +7,24 @@ package Swapping;
 * WAP to swap 3 numbers without using a temp variable
 * */
 public class Swapping {
-    public static void main(String[] args) {
-      String seperator = "*". repeat(30);
-//      swapTwoNumbersUsingTemp(1,2);
+//    public static void main(String[] args) {
+//      String seperator = "*". repeat(30);
+////      swapTwoNumbersUsingTemp(1,2);
+////      System.out.println(seperator);
+////      swapTwoNumbersWithoutUsingTemp(1,2);
+////      System.out.println(seperator);
+////      swapThreeNumbersUsingTemp(1,2,3);
+////      System.out.println(seperator);
+////      swapThreeNumbersWithoutUsingTemp(1,2,3);
+////      System.out.println(seperator);
+////      swapFourNumbersUsingTemp(1,2,3,4);
+////      System.out.println(seperator);
+//      swapFourNumbersWithoutUsingTemp(1,2,3,4);
 //      System.out.println(seperator);
-//      swapTwoNumbersWithoutUsingTemp(1,2);
-//      System.out.println(seperator);
-//      swapThreeNumbersUsingTemp(1,2,3);
-//      System.out.println(seperator);
-//      swapThreeNumbersWithoutUsingTemp(1,2,3);
-//      System.out.println(seperator);
-//      swapFourNumbersUsingTemp(1,2,3,4);
-//      System.out.println(seperator);
-      swapFourNumbersWithoutUsingTemp(1,2,3,4);
-      System.out.println(seperator);
-
-    }
+//
+//    }
     // Program to swap 2 numbers using a temp variable
-    private static void swapTwoNumbersUsingTemp(int a, int b) {
+    public static void swapTwoNumbersUsingTemp(int a, int b) {
         System.out.println("Swapping two numbers with temp variable");
         System.out.println("Value of A : "+ a);
         System.out.println("Value of B : "+ b);
@@ -37,7 +37,7 @@ public class Swapping {
         System.out.println("Value of B : "+ b);
     }
     // Program to swap 2 numbers without using a temp variable
-    private static void swapTwoNumbersWithoutUsingTemp(int a, int b) {
+    public static void swapTwoNumbersWithoutUsingTemp(int a, int b) {
         System.out.println("Swapping two numbers without temp variable");
 
         System.out.println("Value of A : "+ a);
@@ -54,7 +54,7 @@ public class Swapping {
     }
 
     // Program to swap 3 numbers using a temp variable
-    private static void swapThreeNumbersUsingTemp(int a, int b, int c) {
+    public static void swapThreeNumbersUsingTemp(int a, int b, int c) {
         System.out.println("Swapping three numbers with temp variable");
 
         System.out.println("Value of A : "+ a);
@@ -72,7 +72,7 @@ public class Swapping {
 
     }
     // Program to swap 3 numbers without using a temp variable
-    private static void swapThreeNumbersWithoutUsingTemp(int a, int b,int c) {
+    public static void swapThreeNumbersWithoutUsingTemp(int a, int b,int c) {
         System.out.println("Swapping three numbers without temp variable");
         System.out.println("Value of A : "+ a);
         System.out.println("Value of B : "+ b);
@@ -99,7 +99,7 @@ public class Swapping {
     }
 
     // Program to swap 3 numbers using a temp variable
-    private static void swapFourNumbersUsingTemp(int a, int b, int c, int d) {
+    public static void swapFourNumbersUsingTemp(int a, int b, int c, int d) {
         System.out.println("Swapping Four numbers with temp variable");
 
         System.out.println("Value of A : "+ a);
@@ -126,7 +126,7 @@ public class Swapping {
 
     }
     // Program to swap 3 numbers without using a temp variable
-    private static void swapFourNumbersWithoutUsingTemp(int a, int b,int c, int d) {
+    public static void swapFourNumbersWithoutUsingTemp(int a, int b,int c, int d) {
         System.out.println("Swapping three numbers without temp variable");
         System.out.println("Value of A : "+ a);
         System.out.println("Value of B : "+ b);
