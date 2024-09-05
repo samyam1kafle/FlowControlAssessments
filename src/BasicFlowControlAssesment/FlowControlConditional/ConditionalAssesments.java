@@ -281,13 +281,13 @@ public class ConditionalAssesments {
         sc.close();
     }
 
-       /*
-        18. Java Program to check whether a triangle is an equilateral, isosceles, or scalene triangle using
+    /*
+       18. Java Program to check whether a triangle is an equilateral, isosceles, or scalene triangle using
             if-else.
-        Equilateral: All three sides are equal in length.
-            Isosceles: Two sides are equal in length, while the third side is different.
-            Scalene: All three sides are different lengths.
-       */
+      Equilateral: All three sides are equal in length.
+         Isosceles: Two sides are equal in length, while the third side is different.
+         Scalene: All three sides are different lengths.
+    */
     private static void checkTypeOfTriangle(){
         System.out.println("Enter the length of each side of the triangle!");
         System.out.println("Enter the first side length!");
@@ -423,6 +423,5 @@ public class ConditionalAssesments {
         System.out.println("*" . repeat(40));
         sc.close();
     }
-
 
 }
