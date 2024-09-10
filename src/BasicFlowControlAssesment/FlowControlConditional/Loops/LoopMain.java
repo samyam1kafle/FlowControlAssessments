@@ -84,6 +84,30 @@ public class LoopMain {
                         }
                         break;
                     }
+                    case 4,5 -> {
+                        System.out.println("Please enter the upper limit you want to add odd/even numbers till.");
+                        if (userInput == 5) {
+                            addOddEvenInRange(sc,true);
+                        } else {
+                            addOddEvenInRange(sc,false);
+                        }
+                        break;
+                    }
+                    case 6 -> {
+                        getMultiplicationTable(sc);
+                        break;
+                    }
+                    case 7,8 -> {
+                        if (userInput == 7) {
+                            getDigitsCount(sc,false);
+                        } else {
+                            getDigitsCount(sc,true);
+                        }
+                        break;
+                    }
+                    case 25 -> {
+                        checkPalindromeNumber(sc);
+                    }
                     default -> {
                         nextOption = false;
                         break;
